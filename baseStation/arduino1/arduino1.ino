@@ -1,3 +1,7 @@
+/* this arduino 1 is only for locomotion
+ *  
+ */
+
 #include "pinNumbers.h"
 #include "Relay.h"
 #include "roverMotor.h"
@@ -46,7 +50,7 @@ void loop()
         moveLeft(123);
         break;
       case moveR:
-        moveRight();
+        moveRight(123);
         break;
       case STOP:
         roverStop();
